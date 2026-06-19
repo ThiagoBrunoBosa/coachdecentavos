@@ -1,0 +1,313 @@
+{
+  "common": {
+    "siteName": "Coach de Centavos",
+    "tagline": "Educação financeira com Carolyne",
+    "learnMore": "Saiba mais",
+    "getStarted": "Começar agora",
+    "signIn": "Entrar",
+    "signUp": "Cadastrar",
+    "account": "Minha conta",
+    "products": "Produtos",
+    "consulting": "Consultoria",
+    "about": "Sobre",
+    "shorts": "Shorts",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "language": "Idioma",
+    "signOut": "Sair",
+    "home": "Home"
+  },
+  "home": {
+    "heroEyebrow": "Carolyne Moraes · CFP®",
+    "heroTitle": "Transforme centavos em liberdade financeira",
+    "heroSubtitle": "Consultoria e educação financeira personalizada para organizar sua vida, suas metas e seu futuro com clareza.",
+    "heroBullets": [
+      "Diagnóstico claro da sua situação financeira atual",
+      "Plano prático alinhado às suas metas de vida",
+      "Acompanhamento humano, sem jargões desnecessários",
+      "Conteúdos e ferramentas para evoluir no seu ritmo"
+    ],
+    "heroCardQuote": "Finanças pessoais não precisam ser complicadas — precisam ser intencionais.",
+    "heroCardAuthor": "Carolyne Moraes, educadora financeira",
+    "credentials": "Certificações e experiência que você pode confiar",
+    "trustItems": ["CFP®", "20+ anos no mercado financeiro", "Atendimento 1:1", "Conteúdo em PT e EN"],
+    "ctaPrimary": "Falar com a Carolyne",
+    "ctaSecondary": "Ver consultoria",
+    "cta": "Agende uma consultoria",
+    "viewAll": "Ver todos",
+    "shortsSection": {
+      "eyebrow": "Conteúdo rápido",
+      "title": "Shorts mais recentes",
+      "subtitle": "Dicas práticas em vídeos curtos para aplicar no dia a dia — finanças sem complicação.",
+      "latestBadge": "Mais recente",
+      "viewAll": "Ver todos os shorts",
+      "watchMore": "Assistir"
+    },
+    "productsTitle": "Cursos e materiais",
+    "productsSubtitle": "Aprenda no seu ritmo com produtos digitais curados pela Carolyne.",
+    "benefits": {
+      "title": "Por que escolher o Coach de Centavos",
+      "subtitle": "Uma abordagem que combina método, empatia e experiência real de mercado — inspirada nas melhores práticas de consultoria financeira, adaptada para você.",
+      "items": [
+        {
+          "title": "Clareza financeira",
+          "body": "Entenda para onde vai seu dinheiro, quais são suas prioridades e como tomar decisões com mais segurança no dia a dia."
+        },
+        {
+          "title": "Plano sob medida",
+          "body": "Nada de fórmulas genéricas: construímos juntos um caminho realista para reserva, organização e metas de médio e longo prazo."
+        },
+        {
+          "title": "Confiança para decidir",
+          "body": "Conteúdo educativo e orientação profissional para reduzir ansiedade e aumentar autonomia nas suas escolhas financeiras."
+        }
+      ]
+    },
+    "offerings": {
+      "title": "O que você encontra aqui",
+      "subtitle": "Do primeiro diagnóstico ao acompanhamento contínuo — recursos pensados para diferentes momentos da sua jornada.",
+      "items": [
+        "Consultoria financeira personalizada online",
+        "Assistente educativo na área logada (conteúdo informativo)",
+        "Cursos e ebooks sobre orçamento, dívidas e hábitos",
+        "Shorts com dicas rápidas para o cotidiano",
+        "Agendamento de horários com confirmação da Carolyne"
+      ]
+    },
+    "process": {
+      "title": "Como funciona",
+      "subtitle": "Um processo simples, transparente e focado em resultados práticos.",
+      "steps": [
+        {
+          "title": "Diagnóstico inicial",
+          "body": "Você compartilha sua situação, objetivos e dúvidas. Identificamos prioridades e o que precisa de atenção primeiro."
+        },
+        {
+          "title": "Plano de ação",
+          "body": "Definimos passos concretos: organização do orçamento, reserva, dívidas, metas e hábitos financeiros sustentáveis."
+        },
+        {
+          "title": "Acompanhamento",
+          "body": "Nas consultorias e conteúdos da plataforma, você evolui com suporte contínuo e ajustes conforme sua vida muda."
+        }
+      ]
+    },
+    "audience": {
+      "title": "Para quem é",
+      "subtitle": "Ideal se você quer organizar finanças pessoais ou familiares com orientação profissional.",
+      "items": [
+        "Quem quer sair do vermelho ou reorganizar dívidas",
+        "Famílias que precisam de um orçamento que funcione na prática",
+        "Profissionais buscando reserva de emergência e metas claras",
+        "Quem investe (ou quer investir) com mais consciência e educação",
+        "Pessoas em transição de carreira ou mudança de vida financeira"
+      ]
+    },
+    "testimonials": {
+      "title": "O que dizem quem já passou por aqui",
+      "disclaimer": "Depoimentos ilustrativos para demonstração do layout — substitua por relatos reais quando disponíveis.",
+      "items": [
+        {
+          "quote": "Pela primeira vez entendi para onde ia meu dinheiro. O plano foi simples de seguir e me deu tranquilidade.",
+          "author": "Ana, profissional autônoma"
+        },
+        {
+          "quote": "A consultoria me ajudou a priorizar dívidas e montar uma reserva sem abrir mão do que importa para minha família.",
+          "author": "Ricardo, pai de dois"
+        },
+        {
+          "quote": "Conteúdo claro, sem promessas milagrosas. Senti que estava falando com alguém que entende do assunto de verdade.",
+          "author": "Mariana, empreendedora"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "subtitle": "Tire suas principais dúvidas antes de agendar.",
+      "items": [
+        {
+          "question": "O que é consultoria financeira pessoal?",
+          "answer": "É um atendimento individual focado em organizar suas finanças, definir metas e construir um plano prático — sempre com caráter educativo e orientativo."
+        },
+        {
+          "question": "Qual a diferença entre consultoria e os cursos?",
+          "answer": "Na consultoria você tem atendimento personalizado com a Carolyne. Nos cursos e materiais digitais, você aprende no seu ritmo, com conteúdo estruturado."
+        },
+        {
+          "question": "Preciso já ter conhecimento financeiro?",
+          "answer": "Não. O atendimento é adaptado ao seu nível, do básico ao avançado. O importante é ter disposição para olhar sua realidade com honestidade."
+        },
+        {
+          "question": "Como agendo uma consultoria?",
+          "answer": "Crie sua conta, escolha um pacote e um horário disponível. A Carolyne confirma o agendamento e, se necessário, envia o link da reunião."
+        },
+        {
+          "question": "O assistente de IA substitui a consultoria?",
+          "answer": "Não. O assistente oferece conteúdo educativo geral. Para orientação personalizada, agende uma consultoria."
+        },
+        {
+          "question": "As orientações são recomendação de investimento?",
+          "answer": "Não. Todo conteúdo é educativo e não constitui recomendação individualizada de investimento. Decisões específicas devem considerar seu perfil completo."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dar o próximo passo?",
+      "subtitle": "Comece pelo formulário de interesse ou crie sua conta para agendar uma consultoria.",
+      "primary": "Quero conversar"
+    }
+  },
+  "about": {
+    "title": "Sobre a Carolyne",
+    "body": "Carolyne Moraes é educadora financeira com certificação CFP® e mais de 20 anos de experiência no mercado financeiro. Sua missão é traduzir finanças em decisões claras, humanas e possíveis no dia a dia.",
+    "missionTitle": "Missão",
+    "missionBody": "Democratizar educação financeira de qualidade, com empatia e rigor profissional — para que mais pessoas vivam com autonomia e propósito.",
+    "experienceTitle": "Experiência",
+    "experienceBody": "Passagem por instituições financeiras, atendimento a perfis diversos e formação contínua em planejamento financeiro pessoal.",
+    "approachTitle": "Abordagem",
+    "approachBody": "Sem promessas vazias: diagnóstico honesto, plano realista e ferramentas que você consegue manter no longo prazo.",
+    "ctaConsulting": "Agendar consultoria",
+    "ctaProducts": "Ver produtos"
+  },
+  "consulting": {
+    "title": "Consultoria financeira",
+    "body": "Atendimento personalizado para organizar suas finanças, definir metas e construir um plano prático — online, no horário que combina com você.",
+    "introTitle": "Consultoria sob medida para suas metas",
+    "introBody": "Assim como em consultorias financeiras de referência, começamos pelo diagnóstico, definimos indicadores claros e acompanhamos sua evolução — com foco em finanças pessoais e familiares.",
+    "packagesTitle": "Pacotes disponíveis",
+    "benefitsTitle": "O que está incluso",
+    "benefits": [
+      "Análise da sua situação financeira atual",
+      "Plano de ação personalizado e priorizado",
+      "Orientação educativa sobre orçamento, reserva e dívidas",
+      "Sessão online com a Carolyne no horário agendado"
+    ],
+    "howTitle": "Como agendar",
+    "howSteps": [
+      "Crie sua conta ou entre na plataforma",
+      "Escolha o pacote e o horário disponível",
+      "Aguarde a confirmação e receba o link da reunião"
+    ],
+    "bookCta": "Agendar consultoria",
+    "signInToBook": "Entrar para agendar",
+    "interestLink": "Prefere falar antes? Formulário de interesse",
+    "interestCta": "Tenho interesse"
+  },
+  "consultations": {
+    "title": "Minhas consultorias",
+    "bookTitle": "Agendar consultoria",
+    "bookSubtitle": "Escolha o pacote e o horário disponível.",
+    "bookNew": "Nova consultoria",
+    "empty": "Você ainda não tem consultorias agendadas.",
+    "status": "Status",
+    "joinMeeting": "Entrar na reunião",
+    "packageLabel": "Pacote",
+    "slotLabel": "Horário",
+    "notesLabel": "Observações (opcional)",
+    "selectPackage": "Selecione um pacote",
+    "selectSlot": "Selecione um horário",
+    "submit": "Confirmar agendamento",
+    "submitting": "Agendando…",
+    "loading": "Carregando…",
+    "loadError": "Não foi possível carregar pacotes e horários.",
+    "submitError": "Não foi possível agendar. Tente outro horário.",
+    "cancel": "Cancelar agendamento",
+    "cancelling": "Cancelando…",
+    "statuses": {
+      "Pending": "Pendente",
+      "Confirmed": "Confirmado",
+      "Cancelled": "Cancelado",
+      "Completed": "Concluído"
+    }
+  },
+  "productsAccount": {
+    "title": "Meus produtos",
+    "subtitle": "Produtos liberados na sua conta.",
+    "empty": "Nenhum produto vinculado ainda.",
+    "status": "Status",
+    "activated": "Ativado em"
+  },
+  "products": {
+    "title": "Produtos",
+    "body": "Cursos e materiais para evoluir no seu ritmo.",
+    "empty": "Nenhum produto publicado ainda.",
+    "buyHotmart": "Comprar na Hotmart"
+  },
+  "shorts": {
+    "title": "Shorts",
+    "body": "Conteúdos rápidos para o dia a dia.",
+    "empty": "Nenhum short disponível ainda."
+  },
+  "account": {
+    "title": "Minha conta",
+    "welcome": "Bem-vindo de volta",
+    "assistantLink": "Assistente financeiro",
+    "linkPurchase": "Vincular compra Hotmart",
+    "consultationsLink": "Minhas consultorias",
+    "productsLink": "Meus produtos"
+  },
+  "auth": {
+    "signInTitle": "Entrar",
+    "signUpTitle": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "google": "Continuar com Google",
+    "submitSignIn": "Entrar",
+    "submitSignUp": "Cadastrar",
+    "name": "Nome",
+    "invalidCredentials": "E-mail ou senha inválidos.",
+    "registrationFailed": "Não foi possível criar a conta.",
+    "signInAfterRegisterFailed": "Conta criada, mas não foi possível entrar."
+  },
+  "lead": {
+    "title": "Tenho interesse",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "submitting": "Enviando…",
+    "success": "Obrigado! Entraremos em contato em breve.",
+    "error": "Não foi possível enviar. Tente novamente."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "tagline": "Educação financeira com propósito.",
+    "navTitle": "Navegação",
+    "contactTitle": "Contato",
+    "contactBody": "Use o formulário de interesse ou agende uma consultoria pela plataforma.",
+    "interestLink": "Formulário de interesse",
+    "developedBy": "Desenvolvido por"
+  },
+  "assistant": {
+    "title": "Assistente Carolyne",
+    "subtitle": "Tire dúvidas sobre educação financeira (conteúdo educativo).",
+    "disclaimer": "Este assistente oferece conteúdo educativo e não constitui recomendação de investimento individualizada.",
+    "accept": "Li e concordo",
+    "questionLabel": "Sua pergunta",
+    "placeholder": "Ex.: Como começar um orçamento familiar?",
+    "submit": "Perguntar",
+    "sending": "Enviando…",
+    "loading": "Carregando…",
+    "error": "Não foi possível obter resposta."
+  },
+  "linkPurchase": {
+    "title": "Vincular compra",
+    "body": "Use o mesmo e-mail da compra na Hotmart para liberar seus produtos.",
+    "emailLabel": "E-mail usado na Hotmart",
+    "submit": "Vincular",
+    "sending": "Vinculando…",
+    "success": "{count} produto(s) vinculado(s).",
+    "error": "Não foi possível vincular a compra."
+  },
+  "legal": {
+    "privacyIntro": "Esta política descreve como o Coach de Centavos trata dados pessoais em conformidade com a LGPD.",
+    "privacyData": "Coletamos dados de cadastro (nome, e-mail), histórico de consultorias e interações com produtos digitais quando você usa a plataforma.",
+    "privacyUse": "Usamos esses dados para prestar serviços, comunicação sobre agendamentos e melhoria da experiência. Não vendemos seus dados.",
+    "privacyContact": "Para exercer seus direitos ou tirar dúvidas, entre em contato pelo formulário de interesse ou e-mail informado na consultoria.",
+    "termsIntro": "Ao usar o Coach de Centavos, você concorda com estes termos de uso.",
+    "termsEducation": "O conteúdo e o assistente financeiro têm caráter educativo e não constituem recomendação de investimento individualizada.",
+    "termsAccount": "Você é responsável por manter suas credenciais seguras e por informações verdadeiras no cadastro.",
+    "termsChanges": "Estes termos podem ser atualizados; a versão vigente estará sempre publicada nesta página."
+  }
+}

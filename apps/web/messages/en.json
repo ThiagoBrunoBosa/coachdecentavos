@@ -1,0 +1,313 @@
+{
+  "common": {
+    "siteName": "Coach de Centavos",
+    "tagline": "Financial education with Carolyne",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "account": "My account",
+    "products": "Products",
+    "consulting": "Consulting",
+    "about": "About",
+    "shorts": "Shorts",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "language": "Language",
+    "signOut": "Sign out",
+    "home": "Home"
+  },
+  "home": {
+    "heroEyebrow": "Carolyne Moraes · CFP®",
+    "heroTitle": "Turn pennies into financial freedom",
+    "heroSubtitle": "Personal financial consulting and education to organize your life, goals, and future with clarity.",
+    "heroBullets": [
+      "Clear picture of your current financial situation",
+      "A practical plan aligned with your life goals",
+      "Human guidance without unnecessary jargon",
+      "Content and tools to grow at your own pace"
+    ],
+    "heroCardQuote": "Personal finance does not have to be complicated — it needs to be intentional.",
+    "heroCardAuthor": "Carolyne Moraes, financial educator",
+    "credentials": "Credentials and experience you can trust",
+    "trustItems": ["CFP®", "20+ years in financial markets", "1:1 sessions", "Content in PT and EN"],
+    "ctaPrimary": "Talk to Carolyne",
+    "ctaSecondary": "View consulting",
+    "cta": "Book a consulting session",
+    "viewAll": "View all",
+    "shortsSection": {
+      "eyebrow": "Quick content",
+      "title": "Latest shorts",
+      "subtitle": "Practical tips in short videos you can apply every day — finance without the fuss.",
+      "latestBadge": "Latest",
+      "viewAll": "View all shorts",
+      "watchMore": "Watch"
+    },
+    "productsTitle": "Courses and materials",
+    "productsSubtitle": "Learn at your pace with digital products curated by Carolyne.",
+    "benefits": {
+      "title": "Why Coach de Centavos",
+      "subtitle": "An approach that combines method, empathy, and real market experience — inspired by best-in-class financial consulting, tailored for you.",
+      "items": [
+        {
+          "title": "Financial clarity",
+          "body": "Understand where your money goes, what matters most, and how to make daily decisions with more confidence."
+        },
+        {
+          "title": "Custom plan",
+          "body": "No generic formulas: we build a realistic path for emergency savings, organization, and medium-to-long-term goals."
+        },
+        {
+          "title": "Confidence to decide",
+          "body": "Educational content and professional guidance to reduce anxiety and increase autonomy in your financial choices."
+        }
+      ]
+    },
+    "offerings": {
+      "title": "What you will find here",
+      "subtitle": "From first diagnosis to ongoing support — resources for every stage of your journey.",
+      "items": [
+        "Personalized online financial consulting",
+        "Educational assistant in the logged area (informational content)",
+        "Courses and ebooks on budget, debt, and habits",
+        "Shorts with quick tips for everyday life",
+        "Scheduling with confirmation from Carolyne"
+      ]
+    },
+    "process": {
+      "title": "How it works",
+      "subtitle": "A simple, transparent process focused on practical results.",
+      "steps": [
+        {
+          "title": "Initial diagnosis",
+          "body": "You share your situation, goals, and questions. We identify priorities and what needs attention first."
+        },
+        {
+          "title": "Action plan",
+          "body": "We define concrete steps: budget organization, savings, debt, goals, and sustainable financial habits."
+        },
+        {
+          "title": "Follow-up",
+          "body": "Through consulting sessions and platform content, you evolve with ongoing support as life changes."
+        }
+      ]
+    },
+    "audience": {
+      "title": "Who it is for",
+      "subtitle": "Ideal if you want to organize personal or family finances with professional guidance.",
+      "items": [
+        "Anyone getting out of debt or reorganizing finances",
+        "Families who need a budget that works in practice",
+        "Professionals building emergency savings and clear goals",
+        "People investing (or starting to invest) with more awareness",
+        "Those in career transitions or major life changes"
+      ]
+    },
+    "testimonials": {
+      "title": "What clients say",
+      "disclaimer": "Illustrative testimonials for layout demo — replace with real stories when available.",
+      "items": [
+        {
+          "quote": "For the first time I understood where my money was going. The plan was simple to follow and gave me peace of mind.",
+          "author": "Ana, freelancer"
+        },
+        {
+          "quote": "Consulting helped me prioritize debt and build savings without giving up what matters for my family.",
+          "author": "Ricardo, father of two"
+        },
+        {
+          "quote": "Clear content, no miracle promises. I felt I was talking to someone who truly understands the subject.",
+          "author": "Mariana, entrepreneur"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Answer your main questions before booking.",
+      "items": [
+        {
+          "question": "What is personal financial consulting?",
+          "answer": "Individual sessions focused on organizing your finances, setting goals, and building a practical plan — always educational and guidance-oriented."
+        },
+        {
+          "question": "What is the difference between consulting and courses?",
+          "answer": "Consulting is personalized with Carolyne. Courses and digital materials let you learn at your own pace with structured content."
+        },
+        {
+          "question": "Do I need prior financial knowledge?",
+          "answer": "No. Sessions are adapted to your level, from basics to advanced. What matters is willingness to look at your reality honestly."
+        },
+        {
+          "question": "How do I book a session?",
+          "answer": "Create an account, choose a package and available time slot. Carolyne confirms the booking and sends a meeting link if needed."
+        },
+        {
+          "question": "Does the AI assistant replace consulting?",
+          "answer": "No. The assistant provides general educational content. For personalized guidance, book a consulting session."
+        },
+        {
+          "question": "Is this investment advice?",
+          "answer": "No. All content is educational and does not constitute individualized investment advice."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to take the next step?",
+      "subtitle": "Start with the interest form or create your account to book a session.",
+      "primary": "I want to talk"
+    }
+  },
+  "about": {
+    "title": "About Carolyne",
+    "body": "Carolyne Moraes is a financial educator with CFP® certification and over 20 years of experience in financial markets. Her mission is to translate finance into clear, human, achievable daily decisions.",
+    "missionTitle": "Mission",
+    "missionBody": "Democratize quality financial education with empathy and professional rigor — so more people live with autonomy and purpose.",
+    "experienceTitle": "Experience",
+    "experienceBody": "Background in financial institutions, diverse client profiles, and ongoing training in personal financial planning.",
+    "approachTitle": "Approach",
+    "approachBody": "No empty promises: honest diagnosis, realistic plans, and tools you can maintain long term.",
+    "ctaConsulting": "Book consulting",
+    "ctaProducts": "View products"
+  },
+  "consulting": {
+    "title": "Financial consulting",
+    "body": "Personalized guidance to organize your finances, set goals, and build a practical plan — online, on your schedule.",
+    "introTitle": "Consulting tailored to your goals",
+    "introBody": "Like leading financial consulting practices, we start with diagnosis, define clear indicators, and follow your progress — focused on personal and family finances.",
+    "packagesTitle": "Available packages",
+    "benefitsTitle": "What is included",
+    "benefits": [
+      "Analysis of your current financial situation",
+      "Personalized, prioritized action plan",
+      "Educational guidance on budget, savings, and debt",
+      "Online session with Carolyne at your booked time"
+    ],
+    "howTitle": "How to book",
+    "howSteps": [
+      "Create an account or sign in",
+      "Choose a package and available time slot",
+      "Wait for confirmation and receive the meeting link"
+    ],
+    "bookCta": "Book a session",
+    "signInToBook": "Sign in to book",
+    "interestLink": "Prefer to talk first? Interest form",
+    "interestCta": "I'm interested"
+  },
+  "consultations": {
+    "title": "My consultations",
+    "bookTitle": "Book a consultation",
+    "bookSubtitle": "Choose a package and an available time slot.",
+    "bookNew": "Book new session",
+    "empty": "You have no scheduled consultations yet.",
+    "status": "Status",
+    "joinMeeting": "Join meeting",
+    "packageLabel": "Package",
+    "slotLabel": "Time slot",
+    "notesLabel": "Notes (optional)",
+    "selectPackage": "Select a package",
+    "selectSlot": "Select a time slot",
+    "submit": "Confirm booking",
+    "submitting": "Booking…",
+    "loading": "Loading…",
+    "loadError": "Could not load packages and slots.",
+    "submitError": "Could not book. Try another time slot.",
+    "cancel": "Cancel booking",
+    "cancelling": "Cancelling…",
+    "statuses": {
+      "Pending": "Pending",
+      "Confirmed": "Confirmed",
+      "Cancelled": "Cancelled",
+      "Completed": "Completed"
+    }
+  },
+  "productsAccount": {
+    "title": "My products",
+    "subtitle": "Products unlocked on your account.",
+    "empty": "No linked products yet.",
+    "status": "Status",
+    "activated": "Activated on"
+  },
+  "products": {
+    "title": "Products",
+    "body": "Courses and materials at your own pace.",
+    "empty": "No published products yet.",
+    "buyHotmart": "Buy on Hotmart"
+  },
+  "shorts": {
+    "title": "Shorts",
+    "body": "Quick tips for everyday money decisions.",
+    "empty": "No shorts available yet."
+  },
+  "account": {
+    "title": "My account",
+    "welcome": "Welcome back",
+    "assistantLink": "Financial assistant",
+    "linkPurchase": "Link Hotmart purchase",
+    "consultationsLink": "My consultations",
+    "productsLink": "My products"
+  },
+  "auth": {
+    "signInTitle": "Sign in",
+    "signUpTitle": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "google": "Continue with Google",
+    "submitSignIn": "Sign in",
+    "submitSignUp": "Sign up",
+    "name": "Name",
+    "invalidCredentials": "Invalid email or password.",
+    "registrationFailed": "Could not create account.",
+    "signInAfterRegisterFailed": "Account created but sign-in failed."
+  },
+  "lead": {
+    "title": "I'm interested",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "success": "Thank you! We will be in touch soon.",
+    "error": "Could not submit. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Financial education with purpose.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "contactBody": "Use the interest form or book a session through the platform.",
+    "interestLink": "Interest form",
+    "developedBy": "Developed by"
+  },
+  "assistant": {
+    "title": "Carolyne Assistant",
+    "subtitle": "Ask about financial education (educational content only).",
+    "disclaimer": "This assistant provides educational content and does not constitute individualized investment advice.",
+    "accept": "I have read and agree",
+    "questionLabel": "Your question",
+    "placeholder": "E.g.: How do I start a family budget?",
+    "submit": "Ask",
+    "sending": "Sending…",
+    "loading": "Loading…",
+    "error": "Could not get a response."
+  },
+  "linkPurchase": {
+    "title": "Link purchase",
+    "body": "Use the same email from your Hotmart purchase to unlock your products.",
+    "emailLabel": "Hotmart purchase email",
+    "submit": "Link",
+    "sending": "Linking…",
+    "success": "{count} product(s) linked.",
+    "error": "Could not link the purchase."
+  },
+  "legal": {
+    "privacyIntro": "This policy describes how Coach de Centavos handles personal data.",
+    "privacyData": "We collect registration data (name, email), consulting history, and product interactions when you use the platform.",
+    "privacyUse": "We use this data to deliver services, communicate about bookings, and improve the experience. We do not sell your data.",
+    "privacyContact": "To exercise your rights or ask questions, use the interest form or the email provided during consulting.",
+    "termsIntro": "By using Coach de Centavos, you agree to these terms of use.",
+    "termsEducation": "Content and the financial assistant are educational and do not constitute individualized investment advice.",
+    "termsAccount": "You are responsible for keeping your credentials secure and providing accurate registration information.",
+    "termsChanges": "These terms may be updated; the current version will always be published on this page."
+  }
+}

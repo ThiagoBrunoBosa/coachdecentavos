@@ -1,0 +1,72 @@
+# Render Blueprint — Coach de Centavos (staging)
+# Neon: projeto bora, branch staging, database coachdecentavos (mesmo cluster Bora/GPS/Dona Angela)
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: coachdecentavos-api
+    runtime: docker
+    repo: https://github.com/ThiagoBrunoBosa/coachdecentavos
+    branch: main
+    dockerfilePath: ./src/CoachDecentavos.Api/Dockerfile
+    dockerContext: .
+    region: ohio
+    plan: free
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Staging
+      - key: ASPNETCORE_URLS
+        value: http://+:8080
+      - key: ConnectionStrings__Default
+        sync: false
+      - key: Jwt__SigningKey
+        generateValue: true
+      - key: Jwt__Issuer
+        value: coachdecentavos-api
+      - key: Jwt__Audience
+        value: coachdecentavos-web
+      - key: ADMIN_SEED_NAME
+        value: Admin
+      - key: ADMIN_SEED_EMAIL
+        sync: false
+      - key: ADMIN_SEED_PASSWORD
+        sync: false
+      - key: USER_SEED_NAME
+        value: Thiago Bosa
+      - key: USER_SEED_EMAIL
+        sync: false
+      - key: USER_SEED_PASSWORD
+        sync: false
+      - key: Google__ClientId
+        sync: false
+      - key: Cors__AllowedOrigins__0
+        sync: false
+      - key: Llm__ApiKey
+        sync: false
+      - key: Llm__Enabled
+        value: "false"
+      - key: Hotmart__HotTok
+        sync: false
+      - key: Internal__CronSecret
+        generateValue: true
+
+  - type: cron
+    name: coachdecentavos-youtube-sync
+    runtime: image
+    schedule: "0 6 * * *"
+    plan: free
+    dockerCommand: >
+      curl -sf -X POST
+      -H "X-Cron-Secret: ${INTERNAL__CRONSECRET}"
+      "${API_BASE_URL}/api/v1/internal/youtube/sync"
+    envVars:
+      - key: API_BASE_URL
+        sync: false
+      - key: INTERNAL__CRONSECRET
+        fromService:
+          type: web
+          name: coachdecentavos-api
+          envVarKey: Internal__CronSecret

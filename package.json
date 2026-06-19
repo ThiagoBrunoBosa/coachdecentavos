@@ -1,0 +1,19 @@
+{
+  "name": "coachdecentavos",
+  "private": true,
+  "scripts": {
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "docker:up": "docker compose --env-file .env.docker up --build",
+    "docker:down": "docker compose down",
+    "db:migrate": "dotnet ef database update --project src/CoachDecentavos.Infrastructure --startup-project src/CoachDecentavos.Api",
+    "api:dev": "dotnet run --project src/CoachDecentavos.Api",
+    "web:dev": "npm run dev --prefix apps/web",
+    "web:build": "npm run build --prefix apps/web",
+    "build": "dotnet build && npm run web:build",
+    "neon:create-db": "node scripts/create-neon-db.mjs"
+  },
+  "devDependencies": {
+    "pg": "^8.16.0"
+  }
+}

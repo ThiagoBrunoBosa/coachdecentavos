@@ -1,0 +1,83 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: coachdecentavos-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: coachdecentavos
+    ports:
+      - "5432:5432"
+    volumes:
+      - coachdecentavos_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d coachdecentavos"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  api:
+    build:
+      context: .
+      dockerfile: src/CoachDecentavos.Api/Dockerfile
+    container_name: coachdecentavos-api
+    restart: unless-stopped
+    ports:
+      - "5299:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Docker
+      PORT: "8080"
+      ConnectionStrings__Default: Host=postgres;Port=5432;Database=coachdecentavos;Username=postgres;Password=postgres
+      Jwt__Issuer: coachdecentavos
+      Jwt__Audience: coachdecentavos-api
+      Jwt__SigningKey: docker_dev_signing_key_at_least_32_chars!!
+      ADMIN_SEED_NAME: Admin
+      ADMIN_SEED_EMAIL: admin@local.dev
+      ADMIN_SEED_PASSWORD: ChangeMe123!
+      USER_SEED_NAME: Thiago Bosa
+      USER_SEED_EMAIL: thiago@local.dev
+      USER_SEED_PASSWORD: Thiago123456!
+      Llm__ApiKey: ${LLM_API_KEY:-}
+      Llm__Enabled: "true"
+      Internal__CronSecret: local-docker-cron-secret
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:8080/api/v1/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 8
+      start_period: 40s
+
+  web:
+    build:
+      context: apps/web
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:5299/api/v1
+        NEXT_PUBLIC_GOOGLE_AUTH_ENABLED: "false"
+    container_name: coachdecentavos-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      __NEXT_PRIVATE_ORIGIN: http://127.0.0.1:3000
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:-local-docker-nextauth-secret-change-me}
+      AUTH_SECRET: ${NEXTAUTH_SECRET:-local-docker-nextauth-secret-change-me}
+      AUTH_URL: http://localhost:3000
+      NEXT_PUBLIC_API_URL: http://localhost:5299/api/v1
+      API_INTERNAL_URL: http://api:8080/api/v1
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  coachdecentavos_pgdata:

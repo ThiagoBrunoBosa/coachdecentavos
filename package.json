@@ -10,7 +10,8 @@
     "api:dev": "dotnet run --project src/CoachDecentavos.Api",
     "web:dev": "npm run dev --prefix apps/web",
     "web:build": "npm run build --prefix apps/web",
-    "build": "dotnet build && npm run web:build",
+    "build": "npm run web:build",
+    "build:all": "dotnet build && npm run web:build",
     "neon:create-db": "node scripts/create-neon-db.mjs"
   },
   "devDependencies": {
